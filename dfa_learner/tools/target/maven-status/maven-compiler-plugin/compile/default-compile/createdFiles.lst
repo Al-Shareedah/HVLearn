@@ -1,0 +1,3 @@
+org/learner/tools/GenDot.class
+org/learner/tools/DFAEquivalenceTest.class
+org/learner/tools/RegexToDFA.class

@@ -87,7 +87,7 @@ public class CertificateTemplate
     }
 
     static {
-        System.loadLibrary("serverJNI");
+        System.load("/Users/al.halshareedah/Documents/GitHub/HVLearn/ssl/gnutls/libserverJNI.so");
     }
 
     private native static int initcert(String cname, String crtFile, String keyFile);

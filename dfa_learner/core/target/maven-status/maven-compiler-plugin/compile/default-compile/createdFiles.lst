@@ -1,0 +1,10 @@
+org/learner/core/DFAInfer.class
+org/learner/core/CertificateTemplate.class
+org/learner/core/MembershipOracleCertname.class
+org/learner/core/Regex.class
+org/learner/core/Utils.class
+org/learner/core/IdentityVerifier.class
+org/learner/core/DFASerialization.class
+org/learner/core/DFAHostname.class
+org/learner/core/DFACertname.class
+org/learner/core/MembershipOracleHostname.class

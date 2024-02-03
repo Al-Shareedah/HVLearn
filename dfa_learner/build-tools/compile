@@ -7,6 +7,9 @@ SSL_ROOT=../ssl
 CLASS_PATH=./core/target/classes:./learners/target/classes
 HEADER_PATH=$SSL_ROOT/utils
 
+# Navigate to the root directory of the Maven project
+cd /Users/al.halshareedah/Documents/GitHub/HVLearn/dfa_learner
+
 mvn -q compile
 mvn -q install
 
@@ -15,7 +18,7 @@ javah -classpath $CLASS_PATH -o $HEADER_PATH/jni_verifier.h -jni $PACKAGE.learne
 
 # Compile SSL/TLS libraries
 #make -C $SSL_ROOT/openssl
-make -C $SSL_ROOT/gnutls
+#make -C $SSL_ROOT/gnutls
 #make -C $SSL_ROOT/mbedtls
 #make -C $SSL_ROOT/matrixssl
 #make -C $SSL_ROOT/curl

@@ -37,8 +37,9 @@ import org.learner.core.IdentityVerifier;
 public class JNIVerifier extends IdentityVerifier
 {
     static {
-        System.loadLibrary("serverJNI");
+        System.load("/Users/al.halshareedah/Documents/GitHub/HVLearn/ssl/gnutls/libserverJNI.so");
     }
+
 
     // JNI functions
     //private native int initcert(String cname, String crtfile, String keyfile);

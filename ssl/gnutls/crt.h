@@ -131,7 +131,7 @@ int gnutls_sign_crt(gnutls_x509_crt_t *crt, gnutls_x509_privkey_t *pkey)
 int gnutls_set_san_type(gnutls_x509_subject_alt_name_t type,
     const char *name, size_t namelen, char *nm)
 {
-    int len;
+    int len=0;
     int nmlen;
 
     nmlen = 0;
