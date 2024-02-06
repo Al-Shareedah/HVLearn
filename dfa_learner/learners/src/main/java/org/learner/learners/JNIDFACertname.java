@@ -64,11 +64,12 @@ public class JNIDFACertname {
 	public static void main(String[] args)
         throws IOException, IllegalAccessException, InterruptedException {
 
-        File alphabetFile   = new File("../example-inputs/alphabets");
-        File nameFile       = new File("../example-inputs/certname");
+        File alphabetFile   = new File("dfa_learner/example-inputs/alphabets");
+        File nameFile       = new File("dfa_learner/example-inputs/certname");
         int idType          = CertificateTemplate.ID_TYPE_NONE; // Common name
         //int idType          = CertificateTemplate.ID_TYPE_EMAIL; // Email
-        String libName      = args[0];
+        String libName      = "gnutls";
+
 
 
         IdentityVerifier idVerifier = new JNIVerifier(libName);
