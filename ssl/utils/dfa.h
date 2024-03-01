@@ -26,7 +26,7 @@
 #include <jni.h>
 
 #include "jcstring.h"
-//#include "org_learner_DFATest.h"
+
 #include "jni_verifier.h"
 #include "jni_initcert.h"
 

@@ -142,7 +142,7 @@ class PythonDFA():
     def __init__(self, alphabet=createalphabet()):
         """
         Args:
-            alphabet (list): The imput alphabet
+            alphabet (list): The input alphabet
         Returns:
             None
         """

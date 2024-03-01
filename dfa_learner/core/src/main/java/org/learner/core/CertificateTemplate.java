@@ -46,11 +46,6 @@ public class CertificateTemplate
     private File certFile;
     private File keyFile;
 
-    public CertificateTemplate(String name) {
-        this.idType = CertificateTemplate.ID_TYPE_NONE;
-        this.name = name;
-        this.do_setup();
-    }
 
     public CertificateTemplate(String name, int idType) {
         this.idType = idType;

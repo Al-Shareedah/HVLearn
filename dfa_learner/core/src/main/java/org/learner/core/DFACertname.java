@@ -67,7 +67,6 @@ public class DFACertname extends DFAInfer {
         //int covMode             = dfaTest.covMode;
         String logPrefix        = this.getLogPrefix() + "_certname";
 
-        // TODO: Migrate Random mode
 
         // Setup MembershipOracle
         this.mqOracle = new MembershipOracleCertname(this.idVerifier, this.name, this.idType);
